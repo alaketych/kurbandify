@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Item({ name, thumbnail }) {
+function Artist({ name, thumbnail }) {
     return (
         <li className="item">
             <img className="item__thumb" src={ thumbnail } alt="artist-logo"/>
@@ -9,4 +9,4 @@ function Item({ name, thumbnail }) {
     )
 }
 
-export default Item
+export default Artist
