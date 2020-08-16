@@ -1,0 +1,96 @@
+.page
+    padding: 20px
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+
+    .wrapper
+        width: 600px
+
+    .capture
+        margin: 0
+        font-size: 30px
+
+    .title
+        margin: 0
+        font-weight: 400
+
+    .enum
+        display: flex
+        font-size: 14px
+
+    .description
+        margin: 0
+        font-weight: 400
+
+    .head
+        display: flex
+        justify-content: space-between
+
+        .info
+            display: flex
+            flex-direction: column
+            align-items: center
+
+            .logo
+                border-radius: 50%
+
+        .popular
+            margin: 0
+
+            .list
+                margin: 0px
+                padding: 0px
+                list-style: none
+
+                .track
+                    display: flex
+                    cursor: pointer
+                    align-items: center
+                    padding: 15px 0px
+                    border-bottom: 1px solid #e3e3e3
+
+                    &:hover
+                        transition: all .5s
+                        transform: scale(1.05)
+
+                    &:last-child
+                        border-bottom: 0px
+
+                    &__stan
+                        width: 50px
+
+                    &__info
+                        padding-left: 15px
+                        .track__name
+                            margin: 0px
+                            font-size: 20px
+
+                        .track__artist
+                            margin: 0px
+                            font-size: 17px
+                            color: #999999
+
+    .albums
+        padding: 20px 0px
+
+        .list
+            display: grid
+            grid-gap: 25px
+            grid-template-columns: 1fr 1fr 1fr
+
+            .item
+                width: 175px
+                display: flex
+                cursor: pointer
+                align-items: center
+                flex-direction: column
+
+                .capture
+                    font-size: 20px
+
+                .album-thumb
+                    width: 200px
+                    border-radius: 25px
+                    margin: 20px 0px 0px 0px
