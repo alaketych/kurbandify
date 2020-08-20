@@ -1,7 +1,7 @@
 import React from 'react'
 import Drake from '../assets/images/drake.jpg'
 
-function SingleAlbum() {
+function AlbumPreview() {
     return (
         <div className="item">
             <img className="album-thumb" src={ Drake } alt="album"/>
@@ -15,4 +15,4 @@ function SingleAlbum() {
     )
 }
 
-export default SingleAlbum
+export default AlbumPreview

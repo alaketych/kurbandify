@@ -19,7 +19,7 @@ const PATH_CLASS_NAMES = {
     large: 'LargeSpinnerPath',
 }
 
-function Spinner({ size = 'small', ...props }) {
+function Spinner({ size = 'medium', ...props }) {
     const baseSize = SPINNER_SIZES[size]
     const pathSize = baseSize / 2
     const strokeWidth = STROKE_WIDTHS[size]

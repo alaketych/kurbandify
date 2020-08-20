@@ -1,5 +1,5 @@
 import React from 'react'
-import { SingleAlbum } from './index'
+import { AlbumPreview } from './index'
 
 function Albums() {
     return (
@@ -7,12 +7,12 @@ function Albums() {
             <h3 className="capture">Albums</h3>
 
             <div className="list">
-                <SingleAlbum />
-                <SingleAlbum />
-                <SingleAlbum />
-                <SingleAlbum />
-                <SingleAlbum />
-                <SingleAlbum />
+                <AlbumPreview />
+                <AlbumPreview />
+                <AlbumPreview />
+                <AlbumPreview />
+                <AlbumPreview />
+                <AlbumPreview />
             </div>
         </div>
     )

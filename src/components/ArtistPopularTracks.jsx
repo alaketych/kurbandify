@@ -1,4 +1,5 @@
 import React from 'react'
+import { Track } from './index'
 import { faMusic } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
@@ -10,29 +11,17 @@ function ArtistPopularTracks() {
             <ul className="list">
                 <li className="track">
                     <FontAwesomeIcon icon={ faMusic }></FontAwesomeIcon>
-
-                    <div className="track__info">
-                        <h3 className="track__name">In My Feelings</h3>
-                        <h3 className="track__artist">Drake</h3>
-                    </div>
+                    <Track />
                 </li>
 
                 <li className="track">
                     <FontAwesomeIcon icon={ faMusic }></FontAwesomeIcon>
-
-                    <div className="track__info">
-                        <h3 className="track__name">In My Feelings</h3>
-                        <h3 className="track__artist">Drake</h3>
-                    </div>
+                    <Track />
                 </li>
 
                 <li className="track">
                     <FontAwesomeIcon icon={ faMusic }></FontAwesomeIcon>
-
-                    <div className="track__info">
-                        <h3 className="track__name">In My Feelings</h3>
-                        <h3 className="track__artist">Drake</h3>
-                    </div>
+                    <Track />
                 </li>
             </ul>
         </div>
