@@ -4,14 +4,11 @@ import '../sass/components/page.sass'
 import Drake from '../assets/images/drake.jpg'
 import Track from './Track'
 
-import { faMusic } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-
 function ArtistPage() {
     return (
         <div className="page">
-            <div className="wrapper">
-                <div className="head">
+            <div className="head">
+                <div className="wrapper">
                     <div className="info">
                         <img className="logo" src={ Drake } alt="artist-logo"/>
                         <h3 className="capture">Drake</h3>
@@ -25,47 +22,38 @@ function ArtistPage() {
                     <div className="popular">
                         <ul className="list">
                             <li className="track">
-                                <FontAwesomeIcon icon={ faMusic }></FontAwesomeIcon>
                                 <Track />
                             </li>
 
                             <li className="track">
-                                <FontAwesomeIcon icon={ faMusic }></FontAwesomeIcon>
                                 <Track />
                             </li>
 
                             <li className="track">
-                                <FontAwesomeIcon icon={ faMusic }></FontAwesomeIcon>
                                 <Track />
                             </li>
 
                             <li className="track">
-                                <FontAwesomeIcon icon={ faMusic }></FontAwesomeIcon>
                                 <Track />
                             </li>
 
                             <li className="track">
-                                <FontAwesomeIcon icon={ faMusic }></FontAwesomeIcon>
                                 <Track />
                             </li>
 
                             <li className="track">
-                                <FontAwesomeIcon icon={ faMusic }></FontAwesomeIcon>
                                 <Track />
                             </li>
 
                             <li className="track">
-                                <FontAwesomeIcon icon={ faMusic }></FontAwesomeIcon>
                                 <Track />
                             </li>
 
                             <li className="track">
-                                <FontAwesomeIcon icon={ faMusic }></FontAwesomeIcon>
                                 <Track />
                             </li>
 
                             <li className="track">
-                                <FontAwesomeIcon icon={ faMusic }></FontAwesomeIcon>
                                 <Track />
                             </li>
                         </ul>
