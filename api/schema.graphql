@@ -1,0 +1,15 @@
+type Artist {
+    id: ID!
+    name: String
+    followers: Int
+}
+
+type Album {
+    id: ID!
+    name: String
+}
+
+type Query {
+    getArtists: [Artist]!
+    getAlbums: [Album]!
+}
